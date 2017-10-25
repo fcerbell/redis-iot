@@ -1,0 +1,39 @@
+#######################################
+# Syntax Coloring Map For RedisWorkshop
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+RedisCommand_s	KEYWORD1
+RedisCommand_t	KEYWORD1
+RedisClient_s	KEYWORD1
+RedisClient_t	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+redisclient_close	KEYWORD2
+redisclient_getpipelinemaxsize	KEYWORD2
+redisclient_init	KEYWORD2
+redisclient_open	KEYWORD2
+redisclient_send	KEYWORD2
+redisclient_setpipelinemaxsize	KEYWORD2
+rediscommand_add	KEYWORD2
+rediscommand_init	KEYWORD2
+rediscommand_tochar	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+DEBUG_PRINT	LITERAL1
+DEBUG_PRINTLN	LITERAL1
+DEBUG_STOP	LITERAL1
+PROF_START	LITERAL1
+PROF_STOP	LITERAL1
+STATS_HOOK	LITERAL1
+STATS_LOOP	LITERAL1
+STATS_PERIOD	LITERAL1
