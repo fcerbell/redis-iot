@@ -1,7 +1,7 @@
 #ifndef __redisiot_h__
 #define __redisiot_h__
 
-#include "eeprom.h"
+#include "myeeprom.h"
 
 //  your network SSID (name)
 char* wifi_ssid;

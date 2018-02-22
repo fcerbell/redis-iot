@@ -1,5 +1,5 @@
-#ifndef __eeprom_h__
-#define __eeprom_h__
+#ifndef __myeeprom_h__
+#define __myeeprom_h__
 
 #include <EEPROM.h>
 
@@ -46,5 +46,5 @@ uint8_t readStringFromEEPROM(uint8_t offset, char* &value, uint8_t maxLength) {
   return (offset + 1 + len);
 }
 
-#endif // __eeprom_h__
+#endif // __myeeprom_h__
 

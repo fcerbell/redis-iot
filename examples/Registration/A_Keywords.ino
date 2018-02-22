@@ -17,8 +17,9 @@ Keyword_t keywords[] =
 {
   KW_PRODUCT("redis"),
   KW_COMPANY("redislabs"),
+  #error Please define a sponsor in the A_Keywords tab
   //  KW_SPONSOR("soat"),
-  KW_SPONSOR("zenika"),
+  //  KW_SPONSOR("zenika"),
   //  KW_SPONSOR("etincelle"),
   //  KW_SPONSOR("cordee"),
   //  KW_SPONSOR("wagon"),

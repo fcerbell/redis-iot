@@ -6,9 +6,9 @@
 // FEATURE: Format EEPROM with default values if no magic number (version) found
 // FEATURE: Overloads default values with EEPROM values
 // BUGFIX: Add Yield call to avoid keyword search timeout
-// FEATURE: Simplified eeprom.h and moved to library for useage in RedisClient
+// FEATURE: Simplified myeeprom.h and moved to library for useage in RedisClient
 
-#include "eeprom.h"
+#include "myeeprom.h"
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
 
